@@ -52,7 +52,7 @@
       'My mom and I built 40 Love for the love of connecting with others on the court.',
       'Tennis gave us new friends, new courts, and a reason to get outside and play. We wanted that for everyone who is forty and over: no swiping, no pressure. Just good people, good tennis, and the occasional glass of something after.'
     ],
-    signature: 'Joyce, co-founder, with her mom'
+    signature: 'Joyce, co-founder, with her son'
   });
   var ME = deepFreeze({ name: 'You', initials: 'ME', ntrp: 3.5 });
   var COURTS = deepFreeze([
@@ -75,7 +75,7 @@
     { id: 4, host: 3, courtId: 3, when: 'Sunday, 4:00 PM', type: 'Doubles', spots: 2, level: '4.0+', note: 'Looking for a steady doubles crew.' }
   ]);
   var EVENTS = deepFreeze([
-    { id: 1, kind: 'social', venue: 'Loyal Legion Beer Hall', when: 'Friday, September 11 at 6:30 PM', going: 18, cap: 30, blurb: 'Our monthly gathering: drinks, small plates, and good company. Rackets optional. Every second Friday, at a pub Joyce and her mom pick themselves.' },
+    { id: 1, kind: 'social', venue: 'Loyal Legion Beer Hall', when: 'Friday, September 11 at 6:30 PM', going: 18, cap: 30, blurb: 'Our monthly gathering: drinks, small plates, and good company. Rackets optional. Every second Friday, at a pub Joyce and her son pick themselves.' },
     { id: 2, kind: 'social', venue: "Bailey's Taproom", when: 'Friday, October 9 at 6:30 PM', going: 6, cap: 30, blurb: "October's venue. New faces always welcome." },
     { id: 3, kind: 'trip', venue: 'Indian Wells, California', when: 'March 2027, four days', going: 11, cap: 20, blurb: 'A club trip to the BNP Paribas Open. Shared lodging, carpools, and sessions together.' }
   ]);
@@ -85,7 +85,7 @@
     { id: 3, name: 'Aiko Tanaka', initials: 'AT', partner: false, rate: 50, cert: 'USPTA Certified', yrs: 9, focus: 'Beginners and return to sport', area: 'Laurelhurst area', rating: 5.0, reviews: 12, blurb: 'Encouraging lessons for those beginning, or returning after years away.' }
   ]);
   var SEED_CHAT = deepFreeze([
-    { who: 'Joyce', init: 'JC', t: 'Welcome to the Clubhouse. Say hello, find a hit, and come to Second Friday. My mom and I will be there.', at: '7:50 AM', me: false },
+    { who: 'Joyce', init: 'JC', t: 'Welcome to the Clubhouse. Say hello, find a hit, and come to Second Friday. My son and I will be there.', at: '7:50 AM', me: false },
     { who: 'Dev P.', init: 'DP', t: 'Anyone up for an early hit at Grant tomorrow, 7 AM?', at: '8:14 AM', me: false },
     { who: 'Maggie R.', init: 'MR', t: 'I might. Bringing a new racket to break in.', at: '8:20 AM', me: false },
     { who: 'Hana K.', init: 'HK', t: 'Reminder: the Second Friday social is at Loyal Legion this month.', at: '9:01 AM', me: false }
@@ -332,7 +332,7 @@
       var r = requestById(Number(id.slice(4)));
       if (r && r.host !== -1) { var h = hostOf(r); seed.push({ who: h.name, init: h.initials, t: 'Welcome to the group. See you ' + r.when.toLowerCase() + '.', at: timeNow(), me: false }); }
     } else if (id.indexOf('ev:') === 0) {
-      m = Number(id.slice(3)) === 3 ? "So glad you're in for Indian Wells. Lodging and carpool details will land here." : "So glad you're coming. Details go here closer to the date. My mom is in charge of the snacks.";
+      m = Number(id.slice(3)) === 3 ? "So glad you're in for Indian Wells. Lodging and carpool details will land here." : "So glad you're coming. Details go here closer to the date. My son is in charge of the snacks.";
       seed.push({ who: 'Joyce', init: 'JC', t: m, at: timeNow(), me: false });
     }
     state.msgs[id] = seed;

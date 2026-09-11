@@ -2,7 +2,7 @@
 
 **A tennis club for players forty and over.** Courts, open hits, coaching, monthly social gatherings, and good company nearby. Friendships first; should something more grow from it, all the better.
 
-*Founded by Joyce and her mom, for the love of connecting with others on the court.*
+*Founded by Joyce and her son, for the love of connecting with others on the court.*
 
 ---
 
@@ -62,7 +62,7 @@ Pre-seed funding to build the backend and mobile release, hire one full-stack en
 
 ## Founders
 
-**Joyce** — product and community. **Joyce's mom** — heart of the club, and the reason it exists: she is the member this is built for, and she picks the pubs.
+**Joyce** — community and the heart of the club: she is the member this is built for, and she picks the pubs. **Joyce's son** — product and technology.
 
 ---
 

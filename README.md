@@ -2,13 +2,13 @@
 
 A tennis club for players forty and over. Courts, open hits, coaching, monthly social gatherings, and good company nearby.
 
-Built by Joyce and her mom, for the love of connecting with others on the court.
+Built by Joyce and her son, for the love of connecting with others on the court.
 
 ---
 
 ## Quick start (VS Code)
 
-1. Open this folder in VS Code (`File → Open Folder…`).
+1. Open this folder in VS Code (`File > Open Folder…`).
 2. Accept the recommended extensions when prompted (Live Server, ESLint, EditorConfig).
 3. Open a terminal (`Ctrl+`` ` `` / `` Cmd+` ``) and run:
 

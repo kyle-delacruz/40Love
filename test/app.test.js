@@ -35,7 +35,7 @@ function boot(storage) {
 
   section('Launch pad');
   ok(q('.launch'), 'launch pad renders first');
-  ok(text().includes('My mom and I built 40 Love'), 'founder note from Joyce and her mom is shown');
+  ok(text().includes('My mom and I built 40 Love'), 'founder note from Joyce and her son is shown');
   ok(text().includes('Joyce, co-founder'), 'signature present');
   ok(q('[data-act=to-gate]'), '"Come on in" button present');
   click(q('[data-act=to-gate]'));
@@ -116,14 +116,14 @@ function boot(storage) {
 
   section('Socials');
   click(q('[data-act=tab][data-id=social]'));
-  ok(text().includes('Social gatherings') && text().includes('Joyce and her mom pick'), 'socials + personal touch');
+  ok(text().includes('Social gatherings') && text().includes('Joyce and her son pick'), 'socials + personal touch');
   click(q('[data-act=rsvp][data-id="1"]'));
   ok(text().includes("You're attending") && text().includes('19 attending'), 'RSVP reflects in count');
   click(q('[data-act=rsvp][data-id="3"]'));
   click(q('[data-act=tab][data-id=chat]'));
   ok(text().includes('Second Friday') && text().includes('Indian Wells trip'), 'event group chats appear after RSVP');
   click(q('[data-act=room][data-id="ev:1"]'));
-  ok(q('#msgs').textContent.includes('My mom is in charge of the snacks'), 'Joyce greets in the social group');
+  ok(q('#msgs').textContent.includes('My son is in charge of the snacks'), 'Joyce greets in the social group');
 
   section('Lessons');
   click(q('[data-act=tab][data-id=lessons]'));
