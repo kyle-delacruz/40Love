@@ -21,6 +21,21 @@ Or skip the terminal entirely: right-click `src/index.html` → **Open with Live
 
 The app has no runtime dependencies. There is nothing to compile.
 
+## Screenshots
+
+Opening intro through the main club screens:
+
+| Screen | Preview |
+| ------ | ------- |
+| Intro / founding story | ![Intro launch](docs/screenshots/01-intro-launch.png) |
+| 40+ membership gate | ![Age gate](docs/screenshots/02-age-gate.png) |
+| Map & courts | ![Map home](docs/screenshots/03-map-home.png) |
+| Open hits | ![Open hits](docs/screenshots/04-open-hits.png) |
+| Social gatherings | ![Socials](docs/screenshots/05-socials.png) |
+| Lessons & coaching | ![Lessons](docs/screenshots/06-lessons.png) |
+| Clubhouse chat | ![Chat](docs/screenshots/07-chat.png) |
+| Our story (modal) | ![Our story](docs/screenshots/08-our-story-modal.png) |
+
 ## Scripts
 
 | Command         | What it does                                                                 |
