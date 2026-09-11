@@ -1,0 +1,18 @@
+{
+  "name": "40love",
+  "version": "0.1.0",
+  "private": true,
+  "description": "40 Love: a tennis club for players forty and over. Courts, open hits, coaching, monthly socials, and chat.",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/build.js && node test/app.test.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "jsdom": "^24.0.0"
+  },
+  "engines": { "node": ">=18" }
+}

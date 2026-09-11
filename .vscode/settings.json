@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.eol": "\n",
+  "liveServer.settings.root": "/src",
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "eslint.validate": ["javascript"]
+}
